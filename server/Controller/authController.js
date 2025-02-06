@@ -1,11 +1,21 @@
-import Agency from "../model/agencyModel"
+import Agency from "../model/AgencyModel.js";
 
 
-const registerAgency = (req,res)=>{
+
+
+const registerAgency = async (req,res)=>{
       const {companyName,email,password,confirmPassword,contactNumber,nameOfManager,registrationId,
-        contry,state,district
-      }=req.body
+        contry,state,district} = req.body
+    try{
 
+        
+   
+  
+     
+    }catch(error){
+
+    }
+   
       
 }
 export default registerAgency
