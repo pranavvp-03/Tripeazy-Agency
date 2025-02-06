@@ -1,4 +1,5 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
+
 
 const AgencySchema = new mongoose.Schema({
   companyName: {
@@ -42,5 +43,5 @@ const AgencySchema = new mongoose.Schema({
     required: true,
   },
 });
-module.exports= mongoose.model("Agency",AgencySchema)
+export default mongoose.model("Agency", AgencySchema);
 

@@ -1,4 +1,6 @@
-import Agency from "../model/agencyModel"
+import Agency from "../model/AgencyModel.js";
+
+
 
 
 const registerAgency = async (req,res)=>{
@@ -8,9 +10,6 @@ const registerAgency = async (req,res)=>{
 
         
    
-        const agency= new Agency({
-          con
-        })
   
      
     }catch(error){

@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 import cors from "cors"
 import mongoose from "mongoose"
 
-import authRoter from "./Routes/authRouter"
+import authRoter from "./Routes/authRouter.js"
 
 dotenv.config()
 app.use(express.json())
