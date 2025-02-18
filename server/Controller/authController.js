@@ -1,4 +1,4 @@
-import Agency from "../model/AgencyModel.js";
+import AgencyModel from "../model/agencyModel"
 
 
 
