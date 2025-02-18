@@ -1,14 +1,13 @@
-// import AgencyModel from "../model/agencyModel"
-import AgencySchema from "../model/agencyModel.js"
+import AgencyModel from "../model/agencyModel"
 
 
 
 
-const registerAgency = async (req,res)=>{
+const register = async (req,res)=>{
       const {companyName,email,password,confirmPassword,contactNumber,nameOfManager,registrationId,
         contry,state,district} = req.body
     try{
-    
+
         
    
   
@@ -19,4 +18,4 @@ const registerAgency = async (req,res)=>{
    
       
 }
-export default registerAgency
+export default register

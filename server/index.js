@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 import cors from "cors"
 import mongoose from "mongoose"
 
-import authRoter from "./Routes/authRouter.js"
+import authRouter from "./Routes/authRouter.js"
 
 dotenv.config()
 app.use(express.json())
@@ -12,7 +12,7 @@ app.use(cors({
     origin:"http://localhost:5173",
     credentials:true
 }))
-app.use("/api",authRoter)
+app.use("/api",authRouter)
 
 mongoose.connect(process.env.MONGO_URI)
 .then(()=>console.log(console.log("Mongodb connected successfully😎")))

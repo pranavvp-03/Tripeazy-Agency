@@ -1,9 +1,9 @@
 import express from "express"
 
-import registerAgency from "../Controller/authController.js"
+ import register from "../Controller/authController"
 
 const router =express.Router()
 
-router.post("/register",registerAgency)
+router.post("/register",register)
 
 export default router
